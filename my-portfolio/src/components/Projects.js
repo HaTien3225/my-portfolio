@@ -11,49 +11,49 @@ const projects = [
     name: 'Online Health Checkup Appointment System',
     techs: ['ReactJS', 'Spring Boot', 'MySQL'],
     desc: 'Authentication & Authorization, online payment (VNPay/MoMo), video consultation (WebRTC), statistics dashboard.',
-    images: ['/images/demo1.png','/images/demo2.png'],
+    images: [process.env.PUBLIC_URL +'/images/demo1.png',process.env.PUBLIC_URL +'/images/demo2.png'],
     link: 'https://github.com/hatien3225/HealthyCare'
   },
   {
     name: 'Cloud-Based Chat SaaS',
     techs: ['Flask', 'SocketIO', 'AWS'],
     desc: 'Real-time messaging, file upload, multi-instance scaling, secure sessions.',
-    images: ['/images/demo1.png','/images/demo2.png'],
+    images: [process.env.PUBLIC_URL +'/images/demo1.png',process.env.PUBLIC_URL +'/images/demo2.png'],
     link: 'https://github.com/hatien3225/ChatWeb'
   },
   {
     name: 'ApplyGo',
     techs: ['HTML', 'CSS', 'JavaScript', 'Flask', 'Bootstrap'],
     desc: 'Job posting, application management, and job filtering.',
-    images: ['/images/demo1.png','/images/demo2.png'],
+    images: [process.env.PUBLIC_URL +'/images/demo1.png',process.env.PUBLIC_URL +'/images/demo2.png'],
     link: 'https://github.com/hatien3225/ApplyGo'
   },
   {
     name: 'ev_station',
     techs: ['JavaScript', 'CSS', 'HTML', 'Bootstrap', 'Django', 'ReactJS', 'Django Channels'],
     desc: 'Map integration, route suggestions, and location search for EV stations.',
-    images: ['/images/demo1.png','/images/demo2.png'],
+    images: [process.env.PUBLIC_URL +'/images/demo1.png',process.env.PUBLIC_URL +'/images/demo2.png'],
     link: 'https://github.com/hatien3225/ev_station'
   },
   {
     name: 'HomeFinder',
     techs: ['JavaScript', 'CSS', 'HTML', 'Bootstrap', 'Django', 'React Native'],
     desc: 'Search, filter, and comment features for real-estate listings.',
-   images: ['/images/demo1.png','/images/demo2.png'],
+   images: [process.env.PUBLIC_URL +'/images/demo1.png',process.env.PUBLIC_URL +'/images/demo2.png'],
     link: 'https://github.com/hatien3225/HomeFinder'
   },
   {
     name: 'StayEase',
     techs: ['Python', 'Flask', 'JavaScript', 'CSS', 'HTML', 'Bootstrap'],
     desc: 'Room management, booking system, and staff dashboard for hotels.',
-    images: ['/images/demo1.png','/images/demo2.png'],
+    images: [process.env.PUBLIC_URL +'/images/demo1.png',process.env.PUBLIC_URL +'/images/demo2.png'],
     link: 'https://github.com/hatien3225/StayEase'
   },
   {
     name: 'LTDiDong',
     techs: ['HTML', 'CSS', 'JavaScript', 'Java'],
     desc: 'Cart, order, and product display for collaborative e-commerce project.',
-     images: ['/images/demo1.png','/images/demo2.png'],
+     images: [process.env.PUBLIC_URL +'/images/demo1.png',process.env.PUBLIC_URL +'/images/demo2.png'],
     link: 'https://github.com/hatien3225/LTDiDong'
   },
 ];
